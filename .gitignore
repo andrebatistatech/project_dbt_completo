@@ -1,0 +1,306 @@
+@"
+# ============================================================================
+# Python
+# ============================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ============================================================================
+# Virtual Environments
+# ============================================================================
+.venv/
+venv/
+ENV/
+env/
+.virtualenv/
+.poetry/
+
+# ============================================================================
+# DBT
+# ============================================================================
+dbt_project/target/
+dbt_project/dbt_packages/
+dbt_project/logs/
+dbt_project/dbt_modules/
+target/
+dbt_packages/
+logs/
+dbt_modules/
+
+# ============================================================================
+# Jupyter Notebook
+# ============================================================================
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+profile_default/
+ipython_config.py
+
+# ============================================================================
+# IDEs e Editores
+# ============================================================================
+# VS Code
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+.*.sw?
+
+# Emacs
+*~
+\#*\#
+.\#*
+
+# ============================================================================
+# Dados e Databases
+# ============================================================================
+data/*.csv
+data/*.parquet
+data/*.xlsx
+data/*.xls
+data/*.json
+data/*.xml
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+
+# Manter estrutura de pastas vazias
+!data/.gitkeep
+
+# ============================================================================
+# Environment Variables
+# ============================================================================
+.env
+.env.local
+.env.*.local
+.env.development
+.env.test
+.env.production
+*.env
+
+# Manter exemplo
+!.env.example
+
+# ============================================================================
+# Logs
+# ============================================================================
+*.log
+logs/
+*.log.*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ============================================================================
+# OS Specific
+# ============================================================================
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Linux
+*~
+.directory
+.Trash-*
+.nfs*
+
+# ============================================================================
+# Testing
+# ============================================================================
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.cache
+nosetests.xml
+test-results/
+junit.xml
+
+# ============================================================================
+# Documentation
+# ============================================================================
+docs/_build/
+docs/.doctrees/
+site/
+.mkdocs_cache/
+
+# ============================================================================
+# Databricks
+# ============================================================================
+.databricks/
+databricks.cfg
+
+# ============================================================================
+# Secrets e Credenciais
+# ============================================================================
+*.pem
+*.key
+*.cert
+*.crt
+secrets.yml
+secrets.yaml
+credentials.json
+service-account.json
+*.tfvars
+*.auto.tfvars
+
+# ============================================================================
+# Temporary Files
+# ============================================================================
+*.tmp
+*.temp
+*.bak
+*.backup
+*.old
+*.orig
+*~
+
+# ============================================================================
+# Compiled Files
+# ============================================================================
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+*.dylib
+
+# ============================================================================
+# Archives
+# ============================================================================
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# ============================================================================
+# Poetry
+# ============================================================================
+poetry.lock
+# Descomente se quiser versionar o lock file:
+# !poetry.lock
+
+# ============================================================================
+# MyPy
+# ============================================================================
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# ============================================================================
+# Ruff
+# ============================================================================
+.ruff_cache/
+
+# ============================================================================
+# Pre-commit
+# ============================================================================
+.pre-commit-config.yaml.backup
+
+# ============================================================================
+# SQL
+# ============================================================================
+*.sql.bak
+*.sql~
+
+# ============================================================================
+# Outros
+# ============================================================================
+*.pid
+*.seed
+*.pid.lock
+.node_repl_history
+*.tgz
+.yarn-integrity
+.eslintcache
+.stylelintcache
+.cache/
+.parcel-cache/
+.next/
+.nuxt/
+.vuepress/dist/
+.serverless/
+.fusebox/
+.dynamodb/
+.tern-port
+.vscode-test
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+"@ | Out-File -Encoding UTF8 .gitignore
+
+Write-Host "✅ .gitignore criado com sucesso!" -ForegroundColor Green.user.yml
