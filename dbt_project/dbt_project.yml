@@ -1,0 +1,28 @@
+﻿name: 'project_dbt_completo'
+version: '1.0.0'
+config-version: 2
+
+profile: 'default'
+
+model-paths: ['models']
+seed-paths: ['seeds']
+test-paths: ['tests']
+macro-paths: ['macros']
+
+clean-targets:
+  - 'target'
+  - 'dbt_packages'
+  - 'logs'
+
+models:
+  project_dbt_completo:
+    raw:
+      +materialized: view
+    staging:
+      +materialized: view
+    intermediate:
+      +materialized: view
+    marts:
+      +materialized: table
+      +schema: gold
+

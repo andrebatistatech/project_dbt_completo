@@ -1,0 +1,15 @@
+id,name,department,salary,hire_date,status
+1,Andre Luiz,Analytics,8500.00,2023-01-15,active
+2,Maria Silva,Engineering,9200.00,2023-02-20,active
+3,João Santos,Analytics,7800.00,2023-03-10,active
+4,Ana Costa,Data Science,9500.00,2023-04-05,active
+5,Pedro Oliveira,Engineering,8100.00,2023-05-12,inactive
+6,Julia Ferreira,Analytics,7500.00,2023-06-18,active
+7,Carlos Souza,Data Science,10000.00,2023-07-22,active
+8,Beatriz Lima,Engineering,8800.00,2023-08-30,active
+9,Lucas Alves,Analytics,7900.00,2023-09-14,active
+10,Fernanda Rocha,Data Science,9800.00,2023-10-25,active
+11,Vivian Camara,Data Science,19800.00,2025-10-25,active
+12,Caio Ribeiro,Engineering,8800.00,2022-10-25,active
+13,Vivian Batista,RH,19800.00,2025-10-25,active
+14,Milli Batista,RH,8800.00,2022-10-25,active
